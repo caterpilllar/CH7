@@ -2,43 +2,21 @@
 layout: layout.liquid
 title: 11ty Boilerplate
 ---
-<h1 class="text-3xl font-bold underline">test</h1>
 
-<div class="grid grid-cols-3 gap-4">
-    <div>
-         <img src="images/demo1.png">
-         <div class='grid grid-cols-7'>
-            <img src="images/pine.png">
-            <p>brand name</p>
-            <p>group</p>
-            <p>1.4</p>
-            <p>1.5</p>
-            <p>1.6</p>
-            <p>1.7</p>
-         </div>
-    </div>
+
+<div class="grid gap-10 grid-cols-3 p-8">
+    
+    {% post 'demo3' 'pfp1' 'brand' 'PRO' '1123' '526' %}
          
-    <div>
-        <img src="images/demo2.png">
-        <div class='grid grid-cols-7'>
-            <p>2.1</p>
-            <p>2.2</p>
-            <p>2.3</p>
-            <p>2.4</p>
-            <p>2.5</p>
-            <p>2.6</p>
-            <p>2.7</p>
-         </div>
-    </div>
+    {% post 'demo2' 'pfp2' 'brand' 'PRO' '1123' '526' %}
 
-    <div>
-         <img src="images/demo3.png">
-        <div class='grid grid-cols-7'>
-            <p>3.1</p>
-            <p>3.2</p>
-            <p>3.3</p>
-        </div>
-    </div>
+    {% post 'demo1' 'pfp3' 'brand' 'PRO' '1123' '526' %}
+
+    {% post 'demo4' 'pfp4' 'brand' 'PRO' '1123' '526' %}
+
+    {% post 'demo5' 'pfp5' 'brand' 'PRO' '1123' '526' %}
+
+    {% post 'demo6' 'pfp6' 'brand' 'PRO' '1123' '526' %}
    
    
    
