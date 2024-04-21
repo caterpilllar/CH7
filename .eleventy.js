@@ -16,16 +16,16 @@ module.exports = function(eleventyConfig) {
             </div>
 
             <div class='col-1 mr-20 p-0 h-10 py-2'> 
-                <p class='text-white bg-gray-400 text-lg w-1/2 rounded font-bold'> ${group} </p>
+                <p class='text-white bg-gray-400 text-lg w-5/6 rounded font-bold'> ${group} </p>
             </div>
 
             <div class='grid gap-0 grid-cols-2'> 
                 <div class='col-1 py-2'>
-                    <img class='h-8 px-1 float-left' src='images/heart.png'>
+                    <img class='h-6 px-1 float-left' src='images/heart.png'>
                     <p class='text-lg'>${likes}</p>
                 </div>
                 <div class='col-1 py-2'>
-                    <img class='h-8 px-1 float-left' src='images/eye.png'>
+                    <img class='h-6 px-1 float-left' src='images/eye.png'>
                     <p class='text-lg'>${views}</p>
                 </div>
             </div>
